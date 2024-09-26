@@ -1,0 +1,138 @@
+.stepper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 2rem auto;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: var(--secondary-color) 5px solid;
+    border-radius: 5rem;
+    padding: 1rem;
+    min-width: 365px;
+    min-height: 180px;
+}
+
+.step:hover {
+    background: var(--lighter-primary-color);
+    cursor: pointer;
+}
+
+.step .year {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.step .clientsImg {
+    object-fit: cover;
+    width: 10rem;
+    height: auto;
+    margin: 2rem;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.line hr {
+    width: 200px;
+    border: none;
+    border-top: var(--secondary-color) 10px solid;
+    margin: 0px;
+}
+
+.line .duration {
+    position: absolute;
+    top: 50px;
+    font-size: 0.9em;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 0 5px;
+    border-radius: 0.5rem;
+}
+
+.line .duration:first-child {
+    left: -210px; /* Adjust based design */
+}
+
+.line .duration:last-child {
+    right: -210px; /* Adjust based on design */
+}
+
+.dialogTitle {
+    font-size: 2rem; /* Large title size */
+    font-weight: bold; /* Emphasize the title */
+    color: var(--text-color); /* Match the primary color */
+    margin: auto auto 2rem auto;
+    text-align: center; /* Center the title */
+}
+
+.dialogText {
+    font-size: 1.2rem; /* Make the text larger for readability */
+    line-height: 1.6; /* Improve readability with line spacing */
+    color: var(--secondary-color); /* Use the secondary color for contrast */
+    margin: auto 10rem 1.5rem 10rem;
+    text-align: justify; /* Justify text for a cleaner look */
+}
+
+.dialogImg {
+    object-fit: cover;
+    width: 20rem;
+    height: auto;
+    margin: 2rem;
+}
+
+@media screen and (max-width: 720px) {
+    .stepper{
+        flex-direction: column;
+    }
+
+    .line hr {
+        height: 150px;
+        width: 0px;
+        border: none;
+        border-right: var(--secondary-color) 10px solid;
+        margin: 0px;
+    }
+
+    .line .duration:first-child {
+        top: -40px;
+        left: -30px;
+        min-width: 70px;
+    }
+    
+    .line .duration:last-child {
+        top: 280px;
+        right: -30px;
+        min-width: 70px;
+    }
+
+    .dialogTitle {
+        font-size: 1.2rem; /* Large title size */
+        font-weight: bold; /* Emphasize the title */
+        color: var(--text-color); /* Match the primary color */
+        margin: auto auto 2rem auto;
+        text-align: center; /* Center the title */
+    }
+    
+    .dialogText {
+        font-size: 0.8rem; /* Make the text larger for readability */
+        line-height: 1.5; /* Improve readability with line spacing */
+        color: var(--secondary-color); /* Use the secondary color for contrast */
+        margin: auto 1rem 1.5rem 1rem;
+        text-align: justify; /* Justify text for a cleaner look */
+    }
+    
+    .dialogImg {
+        object-fit: cover;
+        width: 9rem;
+        height: auto;
+        margin: 2rem;
+    }
+}
