@@ -40,7 +40,7 @@ const Intro = () => {
             <div className="introContent">
                 <span className='hello'>{t('hello')},</span>
                 <span className='introText'>{t('I\'m')} <span className='introName'>
-                    David 
+                    Laura 
                     <button className='colorPickerToggle' onClick={() => setColorPickerVisible(!colorPickerVisible)}>
                         <FaPenToSquare className='editImg'/>
                     </button>

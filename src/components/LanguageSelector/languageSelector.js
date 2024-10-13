@@ -3,6 +3,7 @@
   import './languageSelector.css';
   import España from '../../assets/spain-icon.png';
   import English from '../../assets/english-icon.png';
+  import Catalunya from '../../assets/catalan-icon.png';
 
   const LanguageSelector = () => {
     const { i18n } = useTranslation();
@@ -42,10 +43,15 @@
       <div className="language-selector-container">
         <div className="dropdown">
           <button className="dropbtn" onClick={toggleDropdown}>
-            {language === 'en' ? <img src={English} alt='English' /> : <img src={España} alt='Español' />}
+            {language === 'en' ? ( <img src={English} alt='English' />) 
+            : language === 'es' ? ( <img src={España} alt='Español' /> )
+            : ( <img src={Catalunya} alt='Català' />)}
           </button>
           {dropdownOpen && (
           <div className="dropdown-content" ref={dropdownContent}>
+            <div onClick={() => changeLanguage('ca')}>
+              <img src={Catalunya} alt='Català' /> Català
+            </div>
             <div onClick={() => changeLanguage('en')}>
               <img src={English} alt='English' /> English
             </div>
