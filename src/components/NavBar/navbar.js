@@ -3,7 +3,7 @@ import './navbar.css'
 import { Link } from 'react-scroll';
 import { FaRegMessage } from "react-icons/fa6";
 import { FaEllipsis  } from "react-icons/fa6";
-import { TbCircleLetterDFilled } from "react-icons/tb";
+import { TbCircleLetterLFilled } from "react-icons/tb";
 import { CgDarkMode } from "react-icons/cg";
 import { useTranslation } from 'react-i18next';
 import LanguageSelector from '../LanguageSelector/languageSelector';
@@ -60,7 +60,7 @@ const Navbar = () => {
         <div>
             <nav className='navbar'>
                 <div className='desktopMenuLeft'>
-                    <TbCircleLetterDFilled className='logo'/>
+                    <TbCircleLetterLFilled className='logo'/>
                     <CgDarkMode className='themeToggle' onClick={toggleTheme}>
                         {isDarkTheme ? 'Light Mode' : 'Dark Mode'}
                     </CgDarkMode>
