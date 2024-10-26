@@ -29,14 +29,14 @@ const Stepper = () => {
                 </Dialog>
             </div>
             <div className='line'>
-                <span className='duration'>4 years</span>
+                <span className='duration'>4 {t('years')}</span>
                 <hr />
-                <span className='duration'>1 year</span>
+                <span className='duration'>3 {t('months')}</span>
             </div>
             <div className='step' onClick={openDialog}>
                 <span className='year'>2023</span>
                 <img src={Zucchetti} alt='Client' className='clientsImg'></img>
-                <span className='year'>20XX</span>
+                <span className='year'>2023</span>
                 <Dialog isOpen={isDialogOpen} onClose={handleCloseDialog}>
                     <h2 className='dialogTitle'>{t('title_zucchetti')}</h2>
                     <p className='dialogText'>{t('text_zucchetti')}</p>
