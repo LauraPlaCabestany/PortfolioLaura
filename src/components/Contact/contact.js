@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import './contact.css';
-import Github from '../../assets/github-icon.png';
+import Gmail from '../../assets/gmail-icon.png';
 import Linkedin from '../../assets/linkedin.png';
-import InstagramIcon from '../../assets/instagram.png';
-import TwitterIcon from '../../assets/twitter.png';
+// import InstagramIcon from '../../assets/instagram.png';
+// import TwitterIcon from '../../assets/twitter.png';
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next';
 import Stepper from '../Stepper/stepper';
@@ -47,17 +47,11 @@ const Contact = () => {
                     <textarea className='msg' name='message' rows='5' placeholder={t('your_message')}></textarea>
                     <button type='submit' className='submit' value='Send'>{t('submit')}</button>
                     <div className='links'>
-                        <a href='https://github.com/DavidMartin112' target='_blank' rel='noopener noreferrer'>
-                            <img src={Github} alt='Github' className='link'></img>
+                        <a href='mailto:laura46pc@gmail.com' target='_blank' rel='noopener noreferrer'>
+                            <img src={Gmail} alt='Gmail' className='link'></img>
                         </a>
-                        <a href='https://x.com/dondavid2002' target='_blank' rel='noopener noreferrer'>
-                            <img src={TwitterIcon} alt='Twitter' className='link'></img>
-                        </a>
-                        <a href='https://www.linkedin.com/in/david-mart%C3%ADn-moro-2366b2252/' target='_blank' rel='noopener noreferrer'>
+                        <a href='https://www.linkedin.com/in/laura-pla-cabestany-a563ab2b6/' target='_blank' rel='noopener noreferrer'>
                             <img src={Linkedin} alt='Linkedin' className='link'></img>
-                        </a>
-                        <a href='https://www.instagram.com/daviidmar112/' target='_blank' rel='noopener noreferrer'>
-                            <img src={InstagramIcon} alt='Instagram' className='link'></img>
                         </a>
                     </div>
                 </form>

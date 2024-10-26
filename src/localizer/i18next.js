@@ -50,8 +50,8 @@ i18n
           "error_send_email": "No s'ha pogut enviar l'email... Torneu-ho a intentar més tard!",
           "title_ehu": "Universitat Pompeu Fabra + Rijksuniversiteit Groningen",
           "title_zucchetti": "Federació de Municipis de Catalunya",
-          "text_ehu": ".",
-          "text_zucchetti": ".",
+          "text_ehu": "Graduada de la Universitat Pompeu Fabra (UPF), una universitat dinàmica i acadèmicament rigorosa a Barcelona, reconeguda per la seva orientació internacional i el seu pla d'estudis innovador. Durant els meus estudis, també vaig tenir l’oportunitat enriquidora de participar en una estada Erasmus+ a la Universitat de Groningen, ampliant les meves perspectives acadèmiques i culturals.",
+          "text_zucchetti": "Vaig realitzar pràctiques a la Federació de Municipis de Catalunya, on vaig adquirir experiència pràctica i coneixements específics en la gestió municipal i la col·laboració amb entitats locals. Aquesta oportunitat em va permetre aplicar les meves habilitats tècniques en un entorn professional, contribuint al desenvolupament de solucions orientades a millorar l'administració pública.",
           "years":"anys",
           "months":"mesos",
         }
@@ -95,8 +95,8 @@ i18n
           "error_send_email": "Not able to send email... Try again later!",
           "title_ehu": "Pompeu Fabra University + University of Groningen",
           "title_zucchetti": "Federation of Municipalities of Catalonia",
-          "text_ehu": ".",
-          "text_zucchetti": ".",
+          "text_ehu": "Graduated from Universitat Pompeu Fabra (UPF), a vibrant and academically rigorous university in Barcelona, recognized for its international orientation and innovative curriculum. During my studies, I also had the enriching opportunity to participate in an Erasmus+ stay at the University of Groningen, broadening my academic and cultural perspectives.",
+          "text_zucchetti": "I completed an internship at the Federació de Municipis de Catalunya, where I gained practical experience and specific knowledge in municipal management and collaboration with local entities. This opportunity allowed me to apply my technical skills in a professional setting, contributing to the development of solutions aimed at improving public administration.",
           "years": "years",
           "months": "months"
         }
@@ -140,8 +140,8 @@ i18n
           "error_send_email": "No se pudo enviar el correo electrónico... ¡Inténtalo de nuevo más tarde!",
           "title_ehu": "Universidad Pompeu Fabra + Rijksuniversiteit Groningen",
           "title_zucchetti": "Federación de Municipios de Cataluña",
-          "text_ehu": ".",
-          "text_zucchetti": ".",
+          "text_ehu": "Graduada de la Universitat Pompeu Fabra (UPF), una universidad dinámica y académicamente rigurosa en Barcelona, reconocida por su orientación internacional y su plan de estudios innovador. Durante mis estudios, también tuve la oportunidad enriquecedora de participar en una estancia Erasmus+ en la Universidad de Groningen, ampliando mis perspectivas académicas y culturales.",
+          "text_zucchetti": "Realicé prácticas en la Federació de Municipis de Catalunya, donde adquirí experiencia práctica y conocimientos específicos en el ámbito de la gestión municipal y la colaboración con entidades locales. Esta oportunidad me permitió aplicar mis habilidades técnicas en un entorno profesional, contribuyendo al desarrollo de soluciones orientadas a mejorar la administración pública.",
           "years": "años",
           "months": "meses"
         }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './stepper.css';
-import Zucchetti from '../../assets/zucchetti.png';
-import EHU from '../../assets/Ehu_logo.png';
+import FMC from '../../assets/FMC_Logo_horitzontal.png';
+import UPF from '../../assets/UPF_logo.png';
 import Dialog from '../Dialog/dialog';
 import { useTranslation } from 'react-i18next';
 
@@ -20,12 +20,12 @@ const Stepper = () => {
         <div className='stepper'>
             <div className='step' onClick={openEHUDialog}>
                 <span className='year'>2020</span>
-                <img src={EHU} alt='Client' className='clientsImg'></img>
+                <img src={UPF} alt='Client' className='clientsImg'></img>
                 <span className='year'>2024</span>
                 <Dialog isOpen={isEHUDialogOpen} onClose={handleCloseEHUDialog}>
                     <h2 className='dialogTitle'>{t('title_ehu')}</h2>
                     <p className='dialogText'>{t('text_ehu')}</p>
-                    <img src={EHU} alt='Client' className='dialogImg'></img>
+                    <img src={UPF} alt='Client' className='dialogImg'></img>
                 </Dialog>
             </div>
             <div className='line'>
@@ -35,12 +35,12 @@ const Stepper = () => {
             </div>
             <div className='step' onClick={openDialog}>
                 <span className='year'>2023</span>
-                <img src={Zucchetti} alt='Client' className='clientsImg'></img>
+                <img src={FMC} alt='Client' className='clientsImg'></img>
                 <span className='year'>2023</span>
                 <Dialog isOpen={isDialogOpen} onClose={handleCloseDialog}>
                     <h2 className='dialogTitle'>{t('title_zucchetti')}</h2>
                     <p className='dialogText'>{t('text_zucchetti')}</p>
-                    <img src={Zucchetti} alt='Client' className='dialogImg'></img>
+                    <img src={FMC} alt='Client' className='dialogImg'></img>
                 </Dialog>
             </div>
         </div>
