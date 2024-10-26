@@ -68,7 +68,7 @@ const Navbar = () => {
                 <div className='desktopMenu'>
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'>{t('home')}</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>{t('about')}</Link>
-                    <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>{t('portfolio')}</Link>
+                    {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>{t('portfolio')}</Link> */}
                     <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuListItem'>{t('chronology')}</Link>
                 </div>
                 <div className='desktopMenuRight'>
@@ -87,7 +87,7 @@ const Navbar = () => {
                 <div className='navMenu' style={{display: showMenu? 'flex':'none'}} ref={mobMenuRef}>
                     <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='listItem' onClick={() => setShowMenu(false)}>{t('home')}</Link>
                     <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={() => setShowMenu(false)}>{t('about')}</Link>
-                    <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={() => setShowMenu(false)}>{t('portfolio')}</Link>
+                    {/* <Link activeClass='active' to='works' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={() => setShowMenu(false)}>{t('portfolio')}</Link> */}
                     <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={() => setShowMenu(false)}>{t('chronology')}</Link>
                     <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className='listItem' onClick={() => setShowMenu(false)}>{t('contact')}</Link>
                 </div>
