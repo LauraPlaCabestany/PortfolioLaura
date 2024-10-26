@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.8502ea08.css",
-    "main.js": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.0d321074.js",
+    "main.js": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.972dcc05.js",
     "static/media/image2.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/image2.723addc43a45a15abac3.png",
     "static/media/UPF_logo.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/UPF_logo.b35e4fe3ba1ff8b3e457.png",
     "static/media/linkedin.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/linkedin.608c41fca3b2c077439a.png",
@@ -11,10 +11,10 @@
     "index.html": "//lauraplacabestany.github.io/PortfolioLaura/index.html",
     "static/media/getFetch.cjs": "//lauraplacabestany.github.io/PortfolioLaura/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.8502ea08.css.map": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.8502ea08.css.map",
-    "main.0d321074.js.map": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.0d321074.js.map"
+    "main.972dcc05.js.map": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.972dcc05.js.map"
   },
   "entrypoints": [
     "static/css/main.8502ea08.css",
-    "static/js/main.0d321074.js"
+    "static/js/main.972dcc05.js"
   ]
 }
