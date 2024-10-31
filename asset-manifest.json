@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.8ee5943e.css",
+    "main.css": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.eec1db41.css",
     "main.js": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.ac1baf7e.js",
     "static/media/image2.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/image2.723addc43a45a15abac3.png",
     "static/media/barcelonawebp.webp": "//lauraplacabestany.github.io/PortfolioLaura/static/media/barcelonawebp.452057d5dbc54774def3.webp",
@@ -11,11 +11,11 @@
     "static/media/ui-design.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "index.html": "//lauraplacabestany.github.io/PortfolioLaura/index.html",
     "static/media/getFetch.cjs": "//lauraplacabestany.github.io/PortfolioLaura/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.8ee5943e.css.map": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.8ee5943e.css.map",
+    "main.eec1db41.css.map": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.eec1db41.css.map",
     "main.ac1baf7e.js.map": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.ac1baf7e.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ee5943e.css",
+    "static/css/main.eec1db41.css",
     "static/js/main.ac1baf7e.js"
   ]
 }
