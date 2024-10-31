@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.8502ea08.css",
+    "main.css": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.575c68dc.css",
     "main.js": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.972dcc05.js",
     "static/media/image2.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/image2.723addc43a45a15abac3.png",
+    "static/media/barcelonawebp.webp": "//lauraplacabestany.github.io/PortfolioLaura/static/media/barcelonawebp.452057d5dbc54774def3.webp",
     "static/media/UPF_logo.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/UPF_logo.b35e4fe3ba1ff8b3e457.png",
     "static/media/linkedin.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/linkedin.608c41fca3b2c077439a.png",
     "static/media/FMC_Logo_horitzontal.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/FMC_Logo_horitzontal.41bba69e9b8869c72bd3.png",
@@ -10,11 +11,11 @@
     "static/media/ui-design.png": "//lauraplacabestany.github.io/PortfolioLaura/static/media/ui-design.c4acd455fc2040eddcc8.png",
     "index.html": "//lauraplacabestany.github.io/PortfolioLaura/index.html",
     "static/media/getFetch.cjs": "//lauraplacabestany.github.io/PortfolioLaura/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.8502ea08.css.map": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.8502ea08.css.map",
+    "main.575c68dc.css.map": "//lauraplacabestany.github.io/PortfolioLaura/static/css/main.575c68dc.css.map",
     "main.972dcc05.js.map": "//lauraplacabestany.github.io/PortfolioLaura/static/js/main.972dcc05.js.map"
   },
   "entrypoints": [
-    "static/css/main.8502ea08.css",
+    "static/css/main.575c68dc.css",
     "static/js/main.972dcc05.js"
   ]
 }
